@@ -1,0 +1,65 @@
+*** TODO
+
+1) Value handling
+
+	> CONSISTENTLY handle conversions between types when executing operators:
+		- e.g. Figure out, when a DecimalValue can be safely converted to a FractionValue
+
+	> Typing non-retional numbers:
+		> e.g. sqrt(2)
+			- Figure out, how to determine rationallity of roots
+		> e.g. pi, e
+		> e.g. 3*pi, e/2
+			- (Product-/Fraction-)Value of multiple (non-)rational values
+			> Automatic simplification
+
+	!!! End Goal:
+		All possible rational and non-rational numbers can be used with best-possible accuracy
+
+2) Sourcecode / Scripting
+
+	> further control structures:
+		> e.g. while/foreach
+		- Use ConstructTokenizer for tokenization (example in IfTokenizer)
+	
+	> Strings / text as type
+		> Escape sequences
+
+	> read / write values (console arguments, files, ...)
+
+3) functions:
+	> root
+	> Exists(variableName)
+	> Load(x)
+
+	more complex:
+	> probablity / combinatorics
+	> derivate
+	> integrate
+
+* Other
+	> Localize ALL seperators/special characters
+
+* standard list: 
+	tokenizer & expressionizer share one ressource (standard list) for tokens / types
+
+
+
+* simplify expression
+
+* Types
+	> touple (?)
+
+* Math stuff
+	> fraction
+	> complex / ... numbers
+	> vectors
+	> matrices
+
+* token represantation
+	e.g. treeing, listing, ...
+
+
+
+	
+
